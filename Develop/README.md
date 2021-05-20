@@ -10,8 +10,8 @@
   * [Contributing](#contributing)
   * [Steps](#steps)
   * [Contact](#contact)
-  * [Repo Link](#Repo Link)
-  * [Direct Link](#Direct Link)
+  * [RepoLink](#RepoLink)
+  * [DirectLink](#DirectLink)
 
   # Description
   a Description
@@ -35,9 +35,9 @@
   If you have any questions about the repo, open an issue or contact me directly at nitinvemuri@gmail.com.
 
 
-  # Repo Link
+  # RepoLink
   Repo Link: https://github.com/nitinvemuri
 
 
-  # Direct Link
+  # DirectLink
   Direct Link: https://github.com/nitinvemuri/Nitin README
