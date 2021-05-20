@@ -36,8 +36,8 @@ function generateMarkdown(data) {
   * [Contributing](#contributing)
   * [Steps](#steps)
   * [Contact](#contact)
-  * [Repo Link](#Repo Link)
-  * [Direct Link](#Direct Link)
+  * [RepoLink](#RepoLink)
+  * [DirectLink](#DirectLink)
 
   # Description
   ${data.description}
@@ -61,11 +61,11 @@ function generateMarkdown(data) {
   If you have any questions about the repo, open an issue or contact me directly at ${data.email}.
 
 
-  # Repo Link
+  # RepoLink
   Repo Link: https://github.com/${data.username}
 
 
-  # Direct Link
+  # DirectLink
   Direct Link: https://github.com/${data.username}/${data.title}
 `;
 }

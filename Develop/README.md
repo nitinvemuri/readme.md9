@@ -1,7 +1,7 @@
-# Nitin README
+# g
 
   
-  [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+   
   # Table of Contents 
   * [Description](#Description)
   * [Installation](#installation)
@@ -14,30 +14,30 @@
   * [DirectLink](#DirectLink)
 
   # Description
-  a Description
+  f
 
   # Installation
-  The following must be installed or linked in order to run the application properly: an Installation instruction
+  The following must be installed or linked in order to run the application properly: f
   
   # Usage
-  ​some usage
+  ​f
  
   # License
-  This project is licensed under the GNU General Public,MIT,Apache ,Unlicensed license.
+  This project is licensed under the  license.
   
   # Contributing
-  ​Contributors: Nitin
+  ​Contributors: f
   
   # Steps
-  many
+  f
   
   # Contact
-  If you have any questions about the repo, open an issue or contact me directly at nitinvemuri@gmail.com.
+  If you have any questions about the repo, open an issue or contact me directly at n.
 
 
   # RepoLink
-  Repo Link: https://github.com/nitinvemuri
+  Repo Link: https://github.com/n
 
 
   # DirectLink
-  Direct Link: https://github.com/nitinvemuri/Nitin README
+  Direct Link: https://github.com/n/g

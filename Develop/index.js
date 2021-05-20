@@ -55,7 +55,7 @@ const Questions = [
         {
             type: 'input',
             name: 'questions',
-            message: 'What to do if I have questions',
+            message: 'What to do if I have questions (type email)',
         },
         {
             type: 'checkbox',
