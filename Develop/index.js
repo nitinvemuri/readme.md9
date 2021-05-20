@@ -61,11 +61,7 @@ const Questions = [
             type: 'checkbox',
             name: 'license',
             message: 'Select the appropriate license. (Enter all that apply)',
-            choices: [
-                'GNU General Public',  
-                'MIT', 
-                'Unlicensed', 
-                'Apache '
+            choices: ['GNU General Public',  'MIT',  'Apache ', 'Unlicensed'
             ]
 
         },
@@ -94,6 +90,21 @@ const Questions = [
                     return false
                 }
             }
+        },
+        {
+            type: 'input',
+            name: 'username',
+            message: 'Input your github username?(required)',
+            validate: usernameInput => {
+                if (usernameInput) {
+                    if (usernameInput) {
+                        return true
+                    } else {
+                        console.log('Enter a Username')
+                        return false
+                    }
+                }
+            }
         }
     ];
 
@@ -101,14 +112,14 @@ const Questions = [
 // Writes README file
 function writeToFile(fileName, data) {
 
-    fs.writeFile(fileName, data, function(err) {
+    fs.writeFile(fileName, data, err => {
       if (err) {
         return console.log(err);
       }
-      console.log ("Successfully wrote: " + fileName);
-    })
+      console.log ("File successfully written");
+    });
     
-    }
+    };
 
 // Initializes app
 function init() {

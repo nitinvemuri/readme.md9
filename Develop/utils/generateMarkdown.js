@@ -28,17 +28,20 @@ function generateMarkdown(data) {
 
   
   ${renderLicenseBadge(data)}
-  # Description
-  ${data.description}
-  
   # Table of Contents 
+  * [Description](#Description)
   * [Installation](#installation)
   * [Usage](#usage)
   * [License](#license)
   * [Contributing](#contributing)
   * [Steps](#steps)
   * [Contact](#contact)
-  
+  * [Repo Link](#Repo Link)
+  * [Direct Link](#Direct Link)
+
+  # Description
+  ${data.description}
+
   # Installation
   The following must be installed or linked in order to run the application properly: ${data.installation}
   
@@ -57,8 +60,13 @@ function generateMarkdown(data) {
   # Contact
   If you have any questions about the repo, open an issue or contact me directly at ${data.email}.
 
-  Repo Link: https://github.com/${data.userName}
-  Direct Link: https://github.com/${data.userName}/${data.title}
+
+  # Repo Link
+  Repo Link: https://github.com/${data.username}
+
+
+  # Direct Link
+  Direct Link: https://github.com/${data.username}/${data.title}
 `;
 }
 
